@@ -20,7 +20,7 @@
         },
         methods: {
             geturl(){
-                axios.get('localhost:8082/hello')
+                axios.get('http://localhost:8082/hello')
                     .then(function (response) {
                     console.log(response);
                 }).catch(function (error) {
